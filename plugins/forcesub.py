@@ -29,7 +29,7 @@ async def forcesub_handler(c: Client, m: Message):
             )
 
             await m.reply_text(
-                f"Hey {m.from_user.mention(style='md')} you need join My updates channel in order to use me\n\n"
+                f"Hey {m.from_user.mention(style='md')} You Need Join My Updates Channel in Order to Use This Bot\n\n"
                 "Press the Following Button to join Now ",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 quote=True,
