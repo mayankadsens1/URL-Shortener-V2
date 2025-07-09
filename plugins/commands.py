@@ -85,7 +85,7 @@ async def help_command(c, m: Message):
         firstname=temp.FIRST_NAME,
         username=temp.BOT_USERNAME,
         repo=SOURCE_CODE,
-        owner="@ask_admin001",
+        owner="@oo7jatji",
     )
 
     if WELCOME_IMAGE:
@@ -327,7 +327,7 @@ async def base_site_handler(bot, m: Message):
     user = await get_user(user_id)
     cmd = m.command
     site = user["base_site"]
-    text = f"`/base_site (base_site)`\n\nCurrent base site: {site}\n\n EX: `/base_site shareus.in`\n\nAvailable base sites:\n{avl_web1}\nAnd All alternate sites to droplink.co"
+    text = f"`/base_site (base_site)`\n\nCurrent base site: {site}\n\n EX: `/base_site shareus.in`\n\nAvailable base sites:\n{avl_web1}\nAnd All alternate sites to earn.unipin.in"
     if len(cmd) == 1:
         return await m.reply(text=text, disable_web_page_preview=True)
     elif len(cmd) == 2:
