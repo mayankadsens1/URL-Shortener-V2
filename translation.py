@@ -48,9 +48,8 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` [Talk Bot](https://t.me/ask_admin001)
-`🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
+`👨‍💻 Developer:` [Dev](t.me/oo7jatji)
+`🌐 Buy Source Code:` [Stranger](https://t.me/oo7jatji)
 """
 
 
@@ -180,7 +179,7 @@ Ex: `/mdisk_api 6LZq851sXoPHugiKQq`
             
 Others Mdisk Links will be automatically changed to the API of this Mdisk account
 
-Get your Mdisk API from @VideoToolMoneyTreebot
+Get your Mdisk API from Site
 
 Current Mdisk API: `{}`"""
 
