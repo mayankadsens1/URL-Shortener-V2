@@ -13,7 +13,7 @@ def private_use(func):
 
         if IS_PRIVATE and chat_id not in ADMINS:
             await message.reply_text(
-                "This bot only works for Admins. Make your own [Bot](https://github.com/kevinnadar22/URL-Shortener-V2)",
+                "This bot only works for Admins. Buy Bot Source And Make your own [Buy From Owner](https://t.me/oo7jatji)",
                 quote=True,
                 disable_web_page_preview=True,
             )
