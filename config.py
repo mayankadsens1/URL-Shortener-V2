@@ -35,10 +35,10 @@ ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
 #  Optionnal variables
 LOG_CHANNEL = int(
-    os.environ.get("LOG_CHANNEL", "0")
+    os.environ.get("LOG_CHANNEL", "1")
 )  # log channel for information about users
 UPDATE_CHANNEL = int(os.environ.get(
-    "UPDATE_CHANNEL", False))  # For Force Subscription
+    "UPDATE_CHANNEL", True))  # For Force Subscription
 BROADCAST_AS_COPY = is_enabled(
     (os.environ.get("BROADCAST_AS_COPY", "False")), False
 )  # true if forward should be avoided
@@ -49,7 +49,7 @@ SOURCE_CODE = os.environ.get(
     "SOURCE_CODE", "https://t.me/oo7jatji"
 )  # for upstream repo
 # image when someone hit /start
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "")
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "https://ibb.co/jHLQ5rB")
 LINK_BYPASS = is_enabled(
     (os.environ.get("LINK_BYPASS", "False")), False
 )  # if true, urls will be bypassed
