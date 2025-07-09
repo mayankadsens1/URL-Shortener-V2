@@ -46,7 +46,7 @@ IS_PRIVATE = is_enabled(
     os.environ.get("IS_PRIVATE", "False"), "False"
 )  # true for private use and restricting users
 SOURCE_CODE = os.environ.get(
-    "SOURCE_CODE", "https://github.com/kevinnadar22/URL-Shortener-V2"
+    "SOURCE_CODE", "https://t.me/oo7jatji"
 )  # for upstream repo
 # image when someone hit /start
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "")
@@ -54,7 +54,7 @@ LINK_BYPASS = is_enabled(
     (os.environ.get("LINK_BYPASS", "False")), False
 )  # if true, urls will be bypassed
 # your shortener site domain
-BASE_SITE = os.environ.get("BASE_SITE", "droplink.co")
+BASE_SITE = os.environ.get("BASE_SITE", "earn.unipin.in")
 
 # For Admin use
 CHANNELS = is_enabled((os.environ.get("CHANNELS", "True")), True)
@@ -72,7 +72,7 @@ DE_BYPASS = (
 DE_BYPASS.append("mdisk.me")
 
 FORWARD_MESSAGE = is_enabled(
-    (os.environ.get("FORWARD_MESSAGE", "False")), False
+    (os.environ.get("FORWARD_MESSAGE", "True")), False
 )  # true if forwardd message to converted by reposting the post
 
 
