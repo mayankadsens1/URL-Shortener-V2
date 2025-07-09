@@ -14,7 +14,7 @@ async def forcesub_handler(c: Client, m: Message):
         try:
             user = await c.get_chat_member(UPDATE_CHANNEL, m.from_user.id)
             if user.status == "kicked":
-                await m.reply_text("**Hey you are banned 😜**", quote=True)
+                await m.reply_text("**Hey you are banned 😜 Contact @oo7jatji **", quote=True)
                 return
         except UserNotParticipant:
             buttons = [
